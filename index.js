@@ -1,6 +1,6 @@
 import express from "express";
 
-
+// dockerized this nodeJs app 
 const app = express();
 
 app.get('/', (req, res) => {
