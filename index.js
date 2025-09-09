@@ -1,5 +1,6 @@
 import express from "express";
 
+// simople nodejs for build docker file pf this
 const app = express();
 
 app.get('/', (req, res) => {
